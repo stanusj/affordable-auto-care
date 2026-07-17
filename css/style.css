@@ -175,7 +175,7 @@ img { max-width: 100%; display: block; }
 
 @media (max-width: 900px) {
   .header-inner { flex-wrap: nowrap; gap: 10px; }
-  .logo-img { height: 34px; }
+  .logo-img { height: 44px; }
   .logo-tagline { display: none; }
   .main-nav {
     position: absolute;
