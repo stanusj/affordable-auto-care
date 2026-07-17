@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Contact &amp; Appointments | Affordable Auto Care, Dixon</title>
+<meta name="description" content="Contact Affordable Auto Care in Dixon, CA. Call (707) 693-0780 or request an appointment online. 180 West E Street, Dixon, CA 95620.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:wght@600;700&family=Karla:wght@400;500;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="container header-inner">
+    <a href="index.html" class="logo">Affordable Auto Care<span>Dixon, CA · Since the 1990s</span></a>
+    <nav class="main-nav" id="main-nav">
+      <a href="index.html">Home</a>
+      <a href="services.html">Services</a>
+      <a href="about.html">About</a>
+      <a href="reviews.html">Reviews</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+    <div class="header-cta">
+      <a href="tel:+17076930780" class="phone-link">(707) 693-0780</a>
+      <a href="contact.html" class="btn btn-primary">Book Appointment</a>
+    </div>
+    <button class="nav-toggle" id="nav-toggle" aria-label="Toggle menu">&#9776;</button>
+  </div>
+</header>
+
+<section class="page-hero">
+  <div class="container">
+    <div class="eyebrow" style="color:var(--gold);">Contact &amp; Appointments</div>
+    <h1>Let's Get Your Vehicle Fixed</h1>
+    <p>Call us, stop by, or send a message below and we'll get back to you.</p>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container grid grid-2" style="align-items:start;">
+
+    <div class="card">
+      <h2 style="margin-bottom:20px;">Request an Appointment</h2>
+      <!--
+        Static markup only. Wire this <form> up to your booking
+        system (e.g. Google Business booking, a form service like
+        Formspree/Netlify Forms, or your shop management software)
+        so submissions actually reach the front desk.
+      -->
+      <form class="form-grid" onsubmit="alert('This form is a design placeholder — connect it to your booking system or email service.'); return false;">
+        <div>
+          <label for="name">Full Name</label>
+          <input type="text" id="name" name="name" required>
+        </div>
+        <div>
+          <label for="phone">Phone Number</label>
+          <input type="tel" id="phone" name="phone" required>
+        </div>
+        <div class="full">
+          <label for="email">Email</label>
+          <input type="email" id="email" name="email">
+        </div>
+        <div>
+          <label for="vehicle">Vehicle (Year/Make/Model)</label>
+          <input type="text" id="vehicle" name="vehicle" placeholder="e.g. 2016 Subaru Outback">
+        </div>
+        <div>
+          <label for="service">Service Needed</label>
+          <select id="service" name="service">
+            <option>General Repair / Diagnostics</option>
+            <option>Brakes / Rotors / Alignment</option>
+            <option>Smog Check (Car)</option>
+            <option>Smog Check (RV)</option>
+            <option>Transmission</option>
+            <option>Oil Change / Maintenance</option>
+            <option>Fleet / Commercial</option>
+            <option>Towing</option>
+            <option>Other</option>
+          </select>
+        </div>
+        <div class="full">
+          <label for="notes">Tell Us What's Going On</label>
+          <textarea id="notes" name="notes" placeholder="Describe the issue or the service you need..."></textarea>
+        </div>
+        <div class="full">
+          <button type="submit" class="btn btn-primary btn-block">Request Appointment</button>
+        </div>
+      </form>
+    </div>
+
+    <div>
+      <div class="card" style="margin-bottom:24px;">
+        <h3>Visit or Call</h3>
+        <p><strong>Address</strong><br>180 West E Street<br>Dixon, CA 95620</p>
+        <p><strong>Phone</strong><br><a href="tel:+17076930780">(707) 693-0780</a></p>
+        <p style="margin-bottom:0;"><strong>Hours</strong><br>Mon–Fri: 8am – 5pm<br>Sat–Sun: Closed</p>
+      </div>
+      <iframe class="map-frame" loading="lazy" referrerpolicy="no-referrer-when-downgrade"
+        src="https://maps.google.com/maps?q=180%20West%20E%20Street%2C%20Dixon%2C%20CA%2095620&t=&z=15&ie=UTF8&iwloc=&output=embed">
+      </iframe>
+    </div>
+  </div>
+</section>
+
+<footer class="site-footer">
+  <div class="container footer-grid">
+    <div class="footer-col">
+      <h3>Affordable Auto Care</h3>
+      <p>Family-owned, full-service auto shop serving Dixon, CA and the surrounding area for over 30 years.</p>
+      <a href="https://www.facebook.com/affordableauto5/" target="_blank" rel="noopener">Facebook →</a>
+    </div>
+    <div class="footer-col">
+      <h4>Quick Links</h4>
+      <a href="services.html">Services</a>
+      <a href="about.html">About Us</a>
+      <a href="reviews.html">Reviews</a>
+      <a href="contact.html">Contact</a>
+    </div>
+    <div class="footer-col">
+      <h4>Hours</h4>
+      <p>Mon–Fri: 8am – 5pm<br>Sat–Sun: Closed</p>
+    </div>
+    <div class="footer-col">
+      <h4>Visit Us</h4>
+      <p>180 West E Street<br>Dixon, CA 95620<br><a href="tel:+17076930780">(707) 693-0780</a></p>
+    </div>
+  </div>
+  <div class="footer-bottom container">
+    <p>© 2026 Affordable Auto Care, Dixon. All rights reserved.</p>
+  </div>
+</footer>
+
+<script src="js/main.js"></script>
+</body>
+</html>
